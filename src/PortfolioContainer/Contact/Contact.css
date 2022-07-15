@@ -1,0 +1,128 @@
+.contact-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  align-content: center;
+  position: relative;
+  padding: 20px;
+}
+h4 {
+  text-align: center;
+}
+.contact-head {
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-section {
+  /* border: 1px solid red; */
+  display: flex;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  padding: 10px 50px;
+  flex-wrap: wrap;
+}
+.contact-email {
+  /* display: flex;
+  flex-direction: column; */
+}
+.cotact-image,
+.cotact-send {
+  width: 350px;
+  height: 320px;
+  background: #24263b;
+  padding: 5px;
+}
+.cotact-image {
+  border-radius: 16px 0 0 16px !important;
+}
+.cotact-send {
+  border-radius: 0 16px 16px 0 !important;
+}
+.all-contact {
+  /* position: relative; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  /* border: 1px solid black; */
+
+  width: 100%;
+}
+h4 {
+  color: white;
+}
+.icon {
+  /* position: absolute;
+  bottom: 0; */
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+}
+.cotact-form {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.myButton {
+  background-color: #30324e;
+  border-radius: 28px;
+  border: 1px solid #24263b;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 8px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px black;
+}
+.myButton:hover {
+  background-color: #484b71;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.contact-footer {
+  position: absolute;
+  bottom: 30px;
+}
+@media screen and (max-width: 800px) {
+  .cotact-image {
+    height: auto;
+  }
+  .all-contact {
+    /* width: auto;
+    height: auto; */
+    flex-direction: column;
+  }
+  .cotact-image {
+    border-radius: 16px 16px 0 0 !important;
+  }
+  .cotact-send {
+    border-radius: 0 0 16px 16px !important;
+  }
+  .figure {
+    display: none;
+  }
+  .contact-section {
+    padding: 0;
+    height: auto;
+  }
+}
