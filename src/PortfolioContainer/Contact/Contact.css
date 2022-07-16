@@ -66,6 +66,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white !important;
 }
 img {
   width: 100%;

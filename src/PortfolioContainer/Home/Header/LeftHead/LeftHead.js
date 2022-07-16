@@ -37,18 +37,20 @@ export default function LeftHead() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["home", "about", "resume", "contact"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon sx={{ color: "white" }}>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <a href={"#" + text} smooth={true} duration={1000}>
-                <ListItemText primary={text.toUpperCase()} />
-              </a>
-            </ListItemButton>
-          </ListItem>
-        ))}
+        {["home", "about", "resume", "Testimonial", "contact"].map(
+          (text, index) => (
+            <ListItem key={text} disablePadding>
+              <ListItemButton>
+                <ListItemIcon sx={{ color: "white" }}>
+                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+                </ListItemIcon>
+                <a href={"#" + text} smooth={true} duration={1000}>
+                  <ListItemText primary={text.toUpperCase()} />
+                </a>
+              </ListItemButton>
+            </ListItem>
+          )
+        )}
       </List>
     </Box>
   );

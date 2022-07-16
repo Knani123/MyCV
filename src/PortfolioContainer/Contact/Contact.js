@@ -162,13 +162,6 @@ const Contact = () => {
                   Send
                 </button>
                 <div>
-                  {/* <Snackbar
-                    anchorOrigin={{ vertical, horizontal }}
-                    open={open}
-                    onClose={handleClose}
-                    message="Email was Successfully Sent "
-                    key={vertical + horizontal}
-                  /> */}
                   <Snackbar
                     anchorOrigin={{ vertical, horizontal }}
                     key={vertical + horizontal}

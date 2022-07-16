@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import Typical from "react-typical";
 import "./Profile.css";
 const Profile = () => {
@@ -73,7 +74,10 @@ const Profile = () => {
               </span>
             </div>
             <div className="profile-options">
-              <button className="btn primary-btn"> Hire me</button>
+              {" "}
+              <Link to="contact" smooth={true} duration={1500}>
+                <button className="btn primary-btn"> Hire me</button>
+              </Link>
               <a
                 href={require(".././cv/resume.pdf")}
                 target="_blank"

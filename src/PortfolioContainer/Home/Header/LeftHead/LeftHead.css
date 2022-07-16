@@ -2,7 +2,7 @@
   width: 250px;
 }
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
-  background-image: url("../../../../assets/Home/bg.jpg");
+  background-image: url("../../../../assets/Home/bg.jpg") !important;
 }
 .drawer-container {
   margin-bottom: 15px;
