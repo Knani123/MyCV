@@ -15,8 +15,11 @@
 .resume-head {
   text-align: center;
   margin-bottom: 50px;
+  /* border: 1px solid black; */
 }
 .resume-section {
+  /* border: 1px solid black; */
+
   height: 500px;
   display: flex;
   justify-content: center;
@@ -28,15 +31,17 @@
   width: 300px;
   height: 320px;
   padding: 0px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  border-right: 1px solid black;
+  box-shadow: 5px 0;
   display: flex;
 }
 
 .resume-details {
   width: 600px;
   height: 320px;
-  padding: 5px;
-  border: 1px solid black;
+  padding: 15px;
+  /* border: 1px solid black; */
   z-index: 100;
 }
 .icon2 {
@@ -71,17 +76,19 @@
   .resume-details {
     width: auto;
     height: 320px;
-    min-width: 220px;
+    min-width: 250px;
   }
   .resume-jalon {
-    width: 220px;
+    width: 250px;
   }
   .icon2 {
     width: 30px;
   }
   .resume-section {
     flex-wrap: wrap;
+    min-height: 90vh;
     height: auto;
+    padding: 10px 0 0 0;
   }
   .resume-container {
     height: auto;
@@ -93,6 +100,6 @@
 }
 @media screen and (max-width: 650px) {
   .resume-jalon {
-    height: 200px;
+    height: 150px;
   }
 }

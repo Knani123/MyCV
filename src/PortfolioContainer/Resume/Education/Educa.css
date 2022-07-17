@@ -1,0 +1,24 @@
+h5,
+p {
+  padding: 0;
+  margin: 0;
+}
+h5 {
+  color: orange;
+  font-size: 16px;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+}
+.Educa-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 10px 0;
+}
+.Educa-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

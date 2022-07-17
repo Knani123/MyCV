@@ -8,6 +8,10 @@ import InsightsIcon from "@mui/icons-material/Insights";
 import PaletteIcon from "@mui/icons-material/Palette";
 import "./Resume.css";
 import { useRef } from "react";
+import Educa from "./Education/Educa.js";
+import Workhistory from "./Work/Work";
+import MySkills from "./MySkills/MySkills";
+import Hobby from "./Hobby/Hobby";
 const Resume = () => {
   const Education = useRef(null);
   const Work = useRef(null);
@@ -29,7 +33,7 @@ const Resume = () => {
           }}
         />{" "}
       </div>
-      <div className="resume-section">
+      <div>
         {" "}
         <Paper className="resume-section" elevation={4}>
           <div className="resume-jalon">
@@ -116,7 +120,7 @@ const Resume = () => {
                     zIndex: 100,
                   }}
                 >
-                  Programming Skills
+                  Skills
                 </Typography>{" "}
               </span>
               <span
@@ -168,9 +172,49 @@ const Resume = () => {
             </div>
           </div>
           <div className="resume-details">
-            <Grow in timeout={1000}>
-              <h1>{ref.nb}</h1>
-            </Grow>
+            {/* <h1>{ref.nb}</h1> */}
+            {ref.nb == "Education" && (
+              <>
+                <Educa
+                  an="2012-2015"
+                  diploma="Ingénieur"
+                  uni="Ecole nationale d'ingénieur de tunis"
+                />
+                <Educa
+                  an="2009-2012"
+                  diploma=" Préparatoire aux études d'ingénieur"
+                  uni="ESSTH"
+                />
+
+                <Educa
+                  an="2004-2009"
+                  diploma="Baccaloriat Math"
+                  uni="Lycée Sidi BounAli"
+                />
+              </>
+            )}
+            {ref.nb == "Work" && (
+              <>
+                <Workhistory
+                  an="2021-  now"
+                  Poste="Chef de projet industrialisation"
+                  Entr="Cair tunis"
+                />
+                <Workhistory
+                  an="2017-2021"
+                  Poste="ingénieur Designer"
+                  Entr="Sogeclair areospace tunisie"
+                />
+
+                <Workhistory
+                  an="2016-2017"
+                  Poste="Concepteur mécanique"
+                  Entr="ECI"
+                />
+              </>
+            )}
+            {ref.nb == "Skills" && <MySkills />}
+            {ref.nb == "Interests" && <Hobby />}
           </div>
         </Paper>
       </div>

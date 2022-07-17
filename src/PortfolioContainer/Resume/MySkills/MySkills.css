@@ -1,0 +1,9 @@
+.MySkills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.MuiChip-root {
+  margin: 1px;
+  background-color: #24263b !important;
+  color: white !important;
+}

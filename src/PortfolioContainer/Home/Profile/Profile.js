@@ -47,7 +47,7 @@ const Profile = () => {
             </div>
             <div className="profile-details-name">
               <span className="primary-next">
-                Hello, I'm <span className="highlighted-text">USER</span>
+                Hello, I'm <span className="highlighted-text">Knani Yosri</span>
               </span>
             </div>
             <div className="profile-details-role">
@@ -56,13 +56,11 @@ const Profile = () => {
                   <Typical
                     loop={Infinity}
                     steps={[
-                      "Developper 💣",
+                      "Engineer 💣",
                       1300,
-                      "Ingeneer 🖥️",
+                      "Developer 🖥️",
                       1300,
-                      "Manager 🔨",
-                      1300,
-                      "Project 📈",
+                      "Developer 📈🔨",
                       1300,
                     ]}
                   />
