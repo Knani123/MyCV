@@ -47,6 +47,7 @@
   .about-container {
     /* border: 1px solid red; */
     height: auto;
+    min-height: 100vh;
     padding: 10px 0;
   }
   .about-section {
