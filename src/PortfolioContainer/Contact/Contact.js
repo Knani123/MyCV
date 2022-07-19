@@ -139,8 +139,10 @@ const Contact = () => {
                   type="text"
                   name="name"
                   required
+                  disabled={sending}
                 />
                 <TextField
+                  disabled={sending}
                   sx={{ margin: "5px" }}
                   fullWidth
                   label="Email"
@@ -150,6 +152,7 @@ const Contact = () => {
                   required
                 />
                 <TextField
+                  disabled={sending}
                   sx={{ margin: "5px" }}
                   fullWidth
                   id="outlined-multiline-static"
