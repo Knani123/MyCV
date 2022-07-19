@@ -19,7 +19,7 @@ const Contact = () => {
     vertical: "top",
     horizontal: "right",
   });
-
+  const [sending, setSending] = useState(false);
   const { vertical, horizontal, open } = state;
 
   const handleClick = (newState) => () => {
@@ -34,7 +34,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    setSending(true);
     emailjs
       .sendForm(
         "service_xa3igu7",
@@ -44,17 +44,18 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          setSending(false);
           setState({
             open: true,
             vertical: "top",
             horizontal: "right",
           });
+          e.target.reset();
         },
         (error) => {
-          console.log(error.text);
+          console.log("error", error);
         }
       );
-    e.target.reset();
   };
   return (
     <div className="contact-container" id="contact">
@@ -175,6 +176,15 @@ const Contact = () => {
                       sx={{ width: "100%" }}
                     >
                       Email was Successfully Sent!
+                    </Alert>
+                  </Snackbar>
+                  <Snackbar
+                    open={sending}
+                    key={vertical + horizontal}
+                    anchorOrigin={{ vertical, horizontal }}
+                  >
+                    <Alert severity="warning" sx={{ width: "100%" }}>
+                      Email sending ...
                     </Alert>
                   </Snackbar>
                 </div>
