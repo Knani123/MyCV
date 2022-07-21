@@ -4,13 +4,13 @@ export const personaleData = {
   Phone: "+216 54150102",
   Adresse: "Tunisie, Sousse 4040",
   socialMedia: {
-    facebook: "www.facebook.com",
-    Twitter: "www.Twitter.com",
-    Linkedin: "www.Linkedin.com",
-    Xing: "www.Xing.com",
-    Github: "www.Github.com",
-    Instagram: "www.Instagram.com",
-    Youtube: "www.Youtube.com",
+    facebook: "https://www.facebook.com",
+    Twitter: "https://www.Twitter.com",
+    Linkedin: "https://www.Linkedin.com",
+    Xing: "https://www.Xing.com",
+    Github: "https://www.Github.com",
+    Instagram: "https://www.Instagram.com",
+    Youtube: "https://www.Youtube.com",
   },
 };
 
