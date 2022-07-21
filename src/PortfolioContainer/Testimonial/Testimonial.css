@@ -28,10 +28,10 @@
   margin-bottom: 20px;
 }
 @media screen and (max-width: 900px) {
-  /* .Testimonial-section {
-    max-height: auto;
+  .Testimonial-head {
+    margin-bottom: 5px;
   }
-  .Testimonial-container {
-    min-height: auto;
-  } */
+  .Testimonial-section {
+    padding-bottom: 60px;
+  }
 }

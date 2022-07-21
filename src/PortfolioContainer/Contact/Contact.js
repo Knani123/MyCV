@@ -12,6 +12,7 @@ import {
 import emailjs from "@emailjs/browser";
 
 import "./Contact.css";
+import Sociale from "../Sociale/Sociale";
 
 const Contact = () => {
   const [state, setState] = useState({
@@ -91,43 +92,7 @@ const Contact = () => {
                   alt="send message"
                 />
               </div>
-              <div className=" icon">
-                <a
-                  href="https://www.facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-facebook-square"></i>
-                </a>
-                <a
-                  href="https://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-google-plus-square"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-instagram"></i>
-                </a>
-                <a
-                  href="https://www.youtube.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-youtube-square"></i>
-                </a>
-                <a
-                  href="https://www.twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </div>
+              <Sociale />
             </div>
             <div className="cotact-send">
               <form ref={form} onSubmit={sendEmail} className="cotact-form">

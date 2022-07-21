@@ -1,6 +1,7 @@
 import { Divider, Typography } from "@mui/material";
 import React from "react";
 import Card from "./Card/Card";
+import { TestimonialTadata } from "../../Data";
 import "./Testimonial.css";
 const Testimonial = () => {
   return (
@@ -15,12 +16,11 @@ const Testimonial = () => {
         />
       </div>
       <div className="Testimonial-section">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {TestimonialTadata.map((pre, i) => (
+          <li>
+            <Card key={i} pre={pre} />
+          </li>
+        ))}
       </div>
       <img
         src={require("../../assets/Home/shapeBg.png")}

@@ -27,7 +27,9 @@
 }
 .primary-text {
   color: (--white);
+  font-family: "Courier New", Courier, monospace !important;
 }
+
 .highlighted-text {
   color: var(--dark-orange);
 }
