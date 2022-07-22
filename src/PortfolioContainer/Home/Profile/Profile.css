@@ -10,6 +10,7 @@
 .profile-parent {
   display: flex;
   align-items: center;
+  /* color: black; */
   color: aliceblue;
 }
 .profile-details-name {
@@ -26,14 +27,19 @@
   font-family: cursive;
 }
 .primary-text {
+  /* color: black; */
   color: (--white);
   font-family: "Courier New", Courier, monospace !important;
 }
 
 .highlighted-text {
   color: var(--dark-orange);
+  /* color: white; */
 }
 .profile-role-tagline {
+  /* color: black; */
+  color: aliceblue;
+
   font-size: 19px;
   margin: 5px 0 0 0;
   font-family: "Poppins Light";
@@ -51,6 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* box-shadow: 0 1px 0 0 black; */
   box-shadow: 0 1px 0 0 var(--white);
   border-radius: 50%;
   height: 380px;
@@ -60,7 +67,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("../../../assets/Home/profilephoto.jpg");
+  background-image: url("../../../assets/Home/profilephoto2.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -72,6 +79,7 @@
 }
 i {
   margin: 3px;
+  /* color: black; */
   color: white;
   padding: 1px;
   padding-left: 0px;

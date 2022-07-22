@@ -2,13 +2,17 @@
   margin-top: 50px;
   height: 50px;
   width: 100%;
-  background-image: url("../../../assets/Home/bg.jpg");
-  z-index: 1000;
+  /* background-image: url("../../../assets/Home/bg.jpg"); */
+  /* background-image: url("../../../assets//Home/bgbs.png"); */
+  background-image: url("../../../assets//Home/bgred.png");
+  /* background-image: url("../../../assets//Home/bggr.png"); */
+  /* background-image: url("../../../assets//Home/bgy.png"); */
   display: flex;
   align-items: center;
   align-content: center;
 }
 .Titre {
+  color: black;
   color: white;
   /* border: 1px solid white; */
   font-size: 40px;
@@ -22,6 +26,7 @@
   display: flex;
   width: 450px;
   justify-content: space-between;
+  color: black;
   color: white;
   list-style: none;
   padding: 0;

@@ -11,17 +11,18 @@ const Testimonial = () => {
         <p style={{ color: "orange" }}>what they say about me ?</p>
         <Divider
           sx={{
-            backgroundColor: "purple",
+            backgroundColor: "black",
+            // backgroundColor: "purple",
           }}
         />
       </div>
-      <div className="Testimonial-section">
+      <ul className="Testimonial-section">
         {TestimonialTadata.map((pre, i) => (
           <li>
             <Card key={i} pre={pre} />
           </li>
         ))}
-      </div>
+      </ul>
       <img
         src={require("../../assets/Home/shapeBg.png")}
         alt=""

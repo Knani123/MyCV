@@ -37,7 +37,10 @@ h4 {
 .cotact-send {
   width: 350px;
   height: 320px;
-  background: #24263b;
+  /* background: #24263b; */
+  /* background-color: black; */
+  background-color: #b20d0d;
+
   padding: 5px;
 }
 .cotact-image {
@@ -80,9 +83,12 @@ img {
 }
 
 .myButton {
-  background-color: #30324e;
+  /* background-color: #30324e; */
+  background-color: #b20d0d;
+
   border-radius: 28px;
-  border: 1px solid #24263b;
+  /* border: 1px solid #24263b; */
+  border: 1px solid #b20d0d;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -94,7 +100,8 @@ img {
   text-shadow: 0px 1px 0px black;
 }
 .myButton:hover {
-  background-color: #484b71;
+  background-color: #d21e0d;
+  /* background-color: #484b71; */
 }
 .myButton:active {
   position: relative;

@@ -65,7 +65,8 @@ const Contact = () => {
         <p style={{ color: "orange" }}>let's keep in touch</p>
         <Divider
           sx={{
-            backgroundColor: "purple",
+            // backgroundColor: "purple",
+            backgroundColor: " #b20d0d",
           }}
         />
       </div>
@@ -88,7 +89,8 @@ const Contact = () => {
                   Send your message
                 </Typography>
                 <img
-                  src={require("../../assets/Home/send.png")}
+                  // src={require("../../assets/Home/send.png")}
+                  src={require("../../assets/Home/email2.jpg")}
                   alt="send message"
                 />
               </div>
@@ -127,7 +129,12 @@ const Contact = () => {
                   name="message"
                   required
                 />
-                <button className="myButton" type="submit" value="Send">
+                <button
+                  className="myButton"
+                  type="submit"
+                  value="Send"
+                  disabled={sending}
+                >
                   Send
                 </button>
                 <div>

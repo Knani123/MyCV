@@ -29,7 +29,8 @@ const Resume = () => {
         <p style={{ color: "orange" }}>My formal bio details</p>
         <Divider
           sx={{
-            backgroundColor: "purple",
+            // backgroundColor: "purple",
+            backgroundColor: " #b20d0d",
           }}
         />{" "}
       </div>
@@ -219,7 +220,8 @@ const Resume = () => {
         </Paper>
       </div>
       <img
-        src={require("../../assets/Home/shapeBg2.png")}
+        // src={require("../../assets/Home/shapeBg2.png")}
+        src={require("../../assets/Home/shapeBg2red.png")}
         alt=""
         style={{
           position: "absolute",

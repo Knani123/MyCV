@@ -12,14 +12,15 @@ const About = () => {
         <p style={{ color: "orange" }}>Why choose me ?</p>
         <Divider
           sx={{
-            backgroundColor: "purple",
+            // backgroundColor: "purple",
+            backgroundColor: "#b20d0d;",
           }}
         />
       </div>
       <Paper className="about-section" elevation={4}>
         <div className="image-container">
           <img
-            src={require("../../assets/Home/Resume.jpg")}
+            src={require("../../assets/Home/Resume2.jpg")}
             alt=""
             className="image"
           />

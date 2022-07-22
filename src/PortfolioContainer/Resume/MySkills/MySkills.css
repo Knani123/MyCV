@@ -4,6 +4,8 @@
 }
 .MuiChip-root {
   margin: 1px;
-  background-color: #24263b !important;
+  background-color: #b20d0d !important;
+
+  /* background-color: #24263b !important; */
   color: white !important;
 }

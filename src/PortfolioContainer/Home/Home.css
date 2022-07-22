@@ -4,5 +4,9 @@
   justify-content: space-between;
   height: 100vh !important;
   min-height: 670px;
-  background-image: url("../../assets//Home/bg.jpg");
+  /* background-image: url("../../assets//Home/bg.jpg"); */
+  /* background-image: url("../../assets//Home/bgbs.png"); */
+  background-image: url("../../assets//Home/bgred.png");
+  /* background-image: url("../../assets//Home/bggr.png"); */
+  /* background-image: url("../../assets//Home/bgy.png");   */
 }
