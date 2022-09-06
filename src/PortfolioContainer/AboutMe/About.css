@@ -29,7 +29,8 @@
   height: 400px;
 }
 .image {
-  width: 100%;
+  width: 90%;
+  max-height: 400px;
 }
 .why {
   width: 500px;

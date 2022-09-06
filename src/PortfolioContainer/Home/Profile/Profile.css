@@ -67,7 +67,7 @@
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("../../../assets/Home/profilephoto2.jpg");
+  background-image: url("../../../assets/Home/my2.PNG");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -131,6 +131,10 @@ i:hover {
     margin: 0 !important;
   }
   .profile-options .profile-details-role {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
   }
 }

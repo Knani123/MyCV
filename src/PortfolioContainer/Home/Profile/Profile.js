@@ -39,7 +39,6 @@ const Profile = () => {
               </span>
             </div>
             <div className="profile-options">
-              {" "}
               <Link to="contact" smooth={true} duration={1500}>
                 <button className="btn primary-btn"> Hire me</button>
               </Link>

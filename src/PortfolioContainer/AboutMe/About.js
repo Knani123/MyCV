@@ -20,7 +20,7 @@ const About = () => {
       <Paper className="about-section" elevation={4}>
         <div className="image-container">
           <img
-            src={require("../../assets/Home/Resume2.jpg")}
+            src={require("../../assets/Home/my.PNG")}
             alt=""
             className="image"
           />
