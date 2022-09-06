@@ -43,7 +43,7 @@ const Profile = () => {
                 <button className="btn primary-btn"> Hire me</button>
               </Link>
               <a
-                href={require(".././cv/resume.pdf")}
+                href={require(".././cv/resume2.pdf")}
                 target="_blank"
                 rel="noreferrer"
               >
